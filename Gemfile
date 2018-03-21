@@ -20,6 +20,8 @@ gem 'bootstrap-sass', '~> 3.3.7'
 gem 'devise'
 gem 'toastr-rails'
 gem 'omniauth-facebook'
+gem "paperclip", "~> 6.0.0"
+gem 'dropzonejs-rails'
 
 
 
