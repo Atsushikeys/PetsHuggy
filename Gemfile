@@ -22,6 +22,7 @@ gem 'toastr-rails'
 gem 'omniauth-facebook'
 gem "paperclip", "~> 6.0.0"
 gem 'dropzonejs-rails'
+gem "figaro", "~> 1.1.0"
 
 
 

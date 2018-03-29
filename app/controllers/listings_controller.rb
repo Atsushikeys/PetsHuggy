@@ -18,7 +18,7 @@
     @listing = current_user.listings.build(listing_params)
 
     if @listing.save
-      redirect_to manage_listings_basics_path(@listing), notice:"リスティングを作成・保存しました"
+      redirect_to manage_listing_basics_path(@listing), notice:"リスティングを作成・保存しました"
     else
       redirect_to new_listing_path, notice:"リスティングを作成・保存できませんでした"
     end
